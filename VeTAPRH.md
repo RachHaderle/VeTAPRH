@@ -23,7 +23,7 @@ subgraph C[GEOGRAPHICAL PLAUSIBILITY]
     12paraId --> 13[For each species on list TAXO, research its distribution in order to retain all the species whose distribution is known in the study area]
     13 --> 14paraId[/"`List of species distributed in the study area`"/]
     14paraId --> 15[Delete from list TAXO species that are not mentioned in the list of species distributed in the study area] 
-    15 --> 16paraId[/"`List GEO: list the species from list MOL that are distributed in the study area`"/]
+    15 --> 16paraId[/"`List GEO: list the species from list TAXO that are distributed in the study area`"/]
 end
 
 subgraph D[INTEGRATION OF PREVIOUS STAGES]
